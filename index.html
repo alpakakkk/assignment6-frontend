@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header class="card">
+      <h1 id="greeting">Welcome to My Portfolio</h1>
+      <h2 class="headline">Almanzor | Front-End Learner</h2>
+      <p>I enjoy learning web development and building interactive websites.</p>
+      <button id="lightTheme">Light Theme</button>
+      <button id="darkTheme">Dark Theme</button>
+    </header>
+    <section class="card">
+      <h2>About Me</h2>
+      <p>I am a student interested in programming, technology, and creative projects.</p>
+      <p id="status">Currently learning jQuery!</p>
+      <ul id="facts"><li>I enjoy music.</li><li>I like solving problems.</li><li>I love exploring new skills.</li></ul>
+      <button id="hideFacts">Hide</button><button id="showFacts">Show</button><button id="toggleFacts">Toggle</button>
+    </section>
+    <section class="card">
+      <h2>My Gallery</h2>
+      <div class="gallery"><img src="images/coding.png" alt="Coding hobby"><img src="images/playing.png" alt="playing hobby"></div>
+      <button id="fadeIn">Fade In</button><button id="fadeOut">Fade Out</button><button id="fadeToggle">Fade Toggle</button>
+    </section>
+    <section class="card">
+      <h2>My Favorites</h2>
+      <button class="accordion" data-panel="musicPanel">My Favorite Music</button><div id="musicPanel" class="panel">Finesse - Bruno Mars</div>
+      <button class="accordion" data-panel="moviePanel">My Favorite Movie</button><div id="moviePanel" class="panel">The Notebook</div>
+      <button class="accordion" data-panel="subjectPanel">My Favorite Subject</button><div id="subjectPanel" class="panel">Mathematics</div>
+      <button id="slideUp">Slide Up All</button><button id="slideDown">Slide Down All</button>
+    </section>
+    <section class="card">
+      <h2>My Technical Skills</h2>
+      <ul id="skillList"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Python</li></ul>
+      <input id="newSkill" type="text" placeholder="Enter a skill" aria-label="New skill">
+      <button id="addSkill">Add Skill</button><button id="prependSkill">Prepend Skill</button><button id="removeSkill">Remove Skill</button>
+      <h3>Skill Levels</h3>
+      <div class="skill"><span>HTML</span><div class="track"><div class="bar" data-width="90%"></div></div></div>
+      <div class="skill"><span>CSS</span><div class="track"><div class="bar" data-width="75%"></div></div></div>
+      <div class="skill"><span>JavaScript</span><div class="track"><div class="bar" data-width="65%"></div></div></div>
+      <button id="animateSkills">Animate My Skills</button>
+    </section>
+    <section class="card">
+      <h2>My Social Link</h2>
+      <a id="socialLink" href="https://github.com/alpakakkk/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <button id="changeLink">Change to LinkedIn</button>
+    </section>
+    <section class="card">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <label for="name">Name</label><input id="name" name="name" type="text">
+        <label for="email">Email</label><input id="email" name="email" type="email">
+      </form>
+      <p>Live Name: <span id="liveName"></span></p>
+      <p>Live Email: <span id="liveEmail"></span></p>
+    </section>
+  </main>
+</body>
+</html>

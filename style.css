@@ -1,0 +1,133 @@
+
+:root {
+    font-family: system-ui, Arial, sans-serif;
+    color: #23334d;
+    background: #f2f5fb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 32px 16px;
+}
+
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 20px #162f5212;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+h2 {
+    color: #315a9d;
+}
+
+button {
+    background: #315fa8;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #244779;
+}
+
+input {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #b7c5d8;
+    border-radius: 8px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 15px 0;
+}
+
+.gallery img {
+    width: min(100%, 260px);
+    height: 170px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.accordion {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.panel {
+    padding: 14px;
+    background: #eef3fb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.track {
+    background: #dce5f2;
+    border-radius: 12px;
+    height: 18px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.bar {
+    background: #4b8ce2;
+    height: 100%;
+    width: 0;
+    border-radius: 12px;
+}
+
+a {
+    color: #315fa8;
+    display: inline-block;
+    margin-right: 12px;
+}
+
+body.dark {
+    color: #edf3ff;
+    background: #131b2b;
+}
+
+body.dark .card {
+    background: #202d43;
+}
+
+body.dark h2 {
+    color: #a9caff;
+}
+
+body.dark .panel {
+    background: #34445e;
+}
+
+body.dark a {
+    color: #a9caff;
+}
