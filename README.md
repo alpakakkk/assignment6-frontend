@@ -50,3 +50,6 @@ Three skill bars start at zero width and animate to different levels, then back 
 
 ## Work Process
 I created the HTML portfolio structure, styled it with CSS, loaded jQuery from a CDN, and implemented selectors, effects, DOM manipulation, form interaction, and skill animations. I organized the code into separate HTML, CSS, and JavaScript files.
+
+## Website Link
+![Website Link](https://alpakakkk.github.io/assignment6-frontend/)
